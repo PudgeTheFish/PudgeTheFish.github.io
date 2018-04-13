@@ -241,7 +241,7 @@ label {
 --------------------------------------------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .heading {
     margin: 0 0 20px 0;
-    font-size: 22px;
+    font-size: 32px;
     line-height: normal;
     font-weight: normal;
     text-transform: uppercase;
@@ -269,7 +269,7 @@ hr {
 }
 
 .font-x1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .font-x2 {
@@ -296,7 +296,7 @@ It should be used in conjunction with a second class or ID
 */
 .hoc {
     display: block;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 /* HTML 5 Overrides

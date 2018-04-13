@@ -87,6 +87,10 @@ File: Layout CSS
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
+.project {
+    margin-bottom: 30px;
+}
+
 .container {
     padding: 80px 0;
 }
@@ -1012,12 +1016,12 @@ input:focus, textarea:focus, *:required:focus {
 }
 
 .row2 {
-    color: #474747;
-    background-color: #FAFAFA;
+    color: #000000;
+    background-color: #f6f6f6;
 }
 
 .row3 {
-    color: #474747;
+    color: #000000;
     background-color: #FFFFFF;
 }
 
@@ -1243,7 +1247,7 @@ table a, #comments a {
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 978px) {
     .hoc {
-        max-width: 978px;
+        max-width: 1100px;
     }
 }
 
