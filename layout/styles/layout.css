@@ -100,6 +100,11 @@ File: Layout CSS
     transform: translate(0, -50%);
 }
 
+.headshot {
+    max-width: 11em;
+    padding-right: 20px;
+}
+
 .hyperlink:hover {
     text-decoration: underline;
 }
@@ -114,7 +119,7 @@ File: Layout CSS
 
 /* Content */
 .content {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -588,6 +593,7 @@ nav ul, nav ol {
 
 #mainav, #breadcrumb, .sidebar nav {
     line-height: normal;
+    background-color: #000000;
 }
 
 #mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after {
@@ -960,7 +966,7 @@ td {
 
 body {
     color: #000000;
-    background-color: #000000;
+    background-color: #FFFFFF;
 }
 
 a {
