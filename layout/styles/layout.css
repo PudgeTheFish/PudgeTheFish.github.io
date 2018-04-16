@@ -87,6 +87,10 @@ File: Layout CSS
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
+.black {
+    color: black;
+}
+
 .contact {
     margin: 20px 0px 20px 50px;
     position: relative;
@@ -98,6 +102,11 @@ File: Layout CSS
     left: 2.5em;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.framed {
+    padding: 5px;
+    border: 2px solid black;
 }
 
 .headshot {
